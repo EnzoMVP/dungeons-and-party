@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# preferências locais do jogador (volumes)
+dungeons_and_party/config.json
+
+# build do executável (PyInstaller)
+build/
+dist/
+*.spec

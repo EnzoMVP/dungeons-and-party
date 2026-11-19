@@ -1,0 +1,9 @@
+{
+  "andares": [
+    [["esqueleto"], ["rato", "rato"], ["morcego", "morcego"]],
+    [["cultista"], ["esqueleto", "rato"], ["orc"], ["aranha"], ["espectro"]],
+    [["orc"], ["rato", "cultista"], ["esqueleto", "esqueleto"], ["golem"], ["aranha", "morcego"], ["espectro", "cultista"]],
+    [["rato", "orc"], ["esqueleto", "cultista"], ["golem", "morcego"], ["espectro", "aranha"]]
+  ],
+  "chefe": ["rei_esqueleto"]
+}

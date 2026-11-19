@@ -1,0 +1,275 @@
+{
+  "golpe": {
+    "nome": "GOLPE", "classe": "guerreiro", "custo": 1, "tipo": "ataque", "ilustracao": "espada",
+    "efeitos": [{"tipo": "dano", "valor": 6}]
+  },
+  "defender": {
+    "nome": "DEFENDER", "classe": "guerreiro", "custo": 1, "tipo": "defesa", "ilustracao": "escudo",
+    "efeitos": [{"tipo": "bloqueio", "valor": 5}]
+  },
+  "esmagar": {
+    "nome": "ESMAGAR", "classe": "guerreiro", "custo": 2, "tipo": "ataque", "ilustracao": "martelo",
+    "efeitos": [{"tipo": "dano", "valor": 14}]
+  },
+  "investida": {
+    "nome": "INVESTIDA", "classe": "guerreiro", "custo": 1, "tipo": "ataque", "ilustracao": "espada",
+    "efeitos": [{"tipo": "dano", "valor": 5}, {"tipo": "bloqueio", "valor": 4, "alvo": "proprio"}]
+  },
+  "provocar": {
+    "nome": "PROVOCAR", "classe": "guerreiro", "custo": 1, "tipo": "defesa", "ilustracao": "escudo",
+    "efeitos": [{"tipo": "bloqueio", "valor": 6, "alvo": "proprio"}, {"tipo": "provocar", "valor": 1}]
+  },
+  "retalhar": {
+    "nome": "RETALHAR", "classe": "guerreiro", "custo": 2, "tipo": "ataque", "ilustracao": "espada",
+    "efeitos": [{"tipo": "dano", "valor": 7, "vezes": 2}]
+  },
+  "muralha": {
+    "nome": "MURALHA", "classe": "guerreiro", "custo": 2, "tipo": "defesa", "ilustracao": "escudo",
+    "efeitos": [{"tipo": "bloqueio", "valor": 14}]
+  },
+  "estrondo": {
+    "nome": "ESTRONDO", "classe": "guerreiro", "custo": 2, "tipo": "ataque", "ilustracao": "martelo",
+    "efeitos": [{"tipo": "dano", "valor": 8, "alvo": "todos"}]
+  },
+
+  "faisca": {
+    "nome": "FAÍSCA", "classe": "mago", "custo": 1, "tipo": "magia", "ilustracao": "faisca",
+    "efeitos": [{"tipo": "dano", "valor": 7}]
+  },
+  "barreira": {
+    "nome": "BARREIRA", "classe": "mago", "custo": 1, "tipo": "defesa", "ilustracao": "barreira",
+    "efeitos": [{"tipo": "bloqueio", "valor": 5}]
+  },
+  "bola_de_fogo": {
+    "nome": "BOLA FOGO", "classe": "mago", "custo": 2, "tipo": "magia", "ilustracao": "bola_de_fogo",
+    "efeitos": [{"tipo": "dano", "valor": 18}]
+  },
+  "concentracao": {
+    "nome": "ESTUDO", "classe": "mago", "custo": 1, "tipo": "magia", "ilustracao": "grimorio",
+    "efeitos": [{"tipo": "comprar", "valor": 2}]
+  },
+  "cura": {
+    "nome": "CURA", "classe": "mago", "custo": 1, "tipo": "magia", "ilustracao": "cura",
+    "efeitos": [{"tipo": "cura", "valor": 8}]
+  },
+  "relampago": {
+    "nome": "RELÂMPAGO", "classe": "mago", "custo": 2, "tipo": "magia", "ilustracao": "faisca",
+    "efeitos": [{"tipo": "dano", "valor": 9, "alvo": "todos"}]
+  },
+  "mana": {
+    "nome": "MANA", "classe": "mago", "custo": 0, "tipo": "magia", "ilustracao": "grimorio",
+    "efeitos": [{"tipo": "energia", "valor": 1}, {"tipo": "comprar", "valor": 1}]
+  },
+  "gelo": {
+    "nome": "GELO", "classe": "mago", "custo": 1, "tipo": "magia", "ilustracao": "barreira",
+    "efeitos": [{"tipo": "dano", "valor": 5}, {"tipo": "bloqueio", "valor": 5, "alvo": "proprio"}]
+  },
+  "meteoro": {
+    "nome": "METEORO", "classe": "mago", "custo": 3, "tipo": "magia", "ilustracao": "bola_de_fogo",
+    "efeitos": [{"tipo": "dano", "valor": 26}]
+  },
+
+  "punhalada": {
+    "nome": "PUNHALADA", "classe": "ladino", "custo": 1, "tipo": "ataque", "ilustracao": "adagas",
+    "efeitos": [{"tipo": "dano", "valor": 4, "vezes": 2}]
+  },
+  "esquiva": {
+    "nome": "ESQUIVA", "classe": "ladino", "custo": 1, "tipo": "defesa", "ilustracao": "esquiva",
+    "efeitos": [{"tipo": "bloqueio", "valor": 4}, {"tipo": "comprar", "valor": 1}]
+  },
+  "adaga_veloz": {
+    "nome": "ARREMESSO", "classe": "ladino", "custo": 0, "tipo": "ataque", "ilustracao": "adaga_veloz",
+    "efeitos": [{"tipo": "dano", "valor": 4}]
+  },
+  "golpe_furtivo": {
+    "nome": "FURTIVO", "classe": "ladino", "custo": 2, "tipo": "ataque", "ilustracao": "golpe_furtivo",
+    "efeitos": [{"tipo": "dano", "valor": 11}, {"tipo": "comprar", "valor": 1}]
+  },
+  "veneno": {
+    "nome": "VENENO", "classe": "ladino", "custo": 1, "tipo": "ataque", "ilustracao": "veneno",
+    "efeitos": [{"tipo": "veneno", "valor": 5}]
+  },
+  "toxica": {
+    "nome": "TÓXICA", "classe": "ladino", "custo": 1, "tipo": "ataque", "ilustracao": "adagas",
+    "efeitos": [{"tipo": "dano", "valor": 3}, {"tipo": "veneno", "valor": 3}]
+  },
+  "sombras": {
+    "nome": "SOMBRAS", "classe": "ladino", "custo": 0, "tipo": "defesa", "ilustracao": "esquiva",
+    "efeitos": [{"tipo": "bloqueio", "valor": 3, "alvo": "proprio"}, {"tipo": "comprar", "valor": 1}]
+  },
+  "laminas": {
+    "nome": "LÂMINAS", "classe": "ladino", "custo": 2, "tipo": "ataque", "ilustracao": "adagas",
+    "efeitos": [{"tipo": "dano", "valor": 3, "vezes": 4}]
+  },
+  "preparo": {
+    "nome": "PREPARO", "classe": "ladino", "custo": 1, "tipo": "defesa", "ilustracao": "golpe_furtivo",
+    "efeitos": [{"tipo": "energia", "valor": 2}]
+  },
+
+  "brado": {
+    "nome": "BRADO", "classe": "guerreiro", "custo": 0, "tipo": "defesa", "ilustracao": "brado",
+    "efeitos": [{"tipo": "furia", "valor": 3}],
+    "descricao": ["+50% DANO", "DO ALVO", "{0} VEZES"]
+  },
+  "rachar": {
+    "nome": "RACHAR", "classe": "guerreiro", "custo": 1, "tipo": "ataque", "ilustracao": "rachar",
+    "efeitos": [{"tipo": "quebrar"}, {"tipo": "vulneravel", "valor": 2}],
+    "descricao": ["ZERA BLOQ", "+50% DANO", "NELE {1}X"]
+  },
+  "bencao": {
+    "nome": "BÊNÇÃO", "classe": "mago", "custo": 1, "tipo": "magia", "ilustracao": "bencao",
+    "efeitos": [{"tipo": "vigor", "valor": 3}],
+    "descricao": ["+{0} VIGOR", "CURA TODA", "VEZ DELE"]
+  },
+  "congelar": {
+    "nome": "CONGELAR", "classe": "mago", "custo": 2, "tipo": "magia", "ilustracao": "congelar",
+    "efeitos": [{"tipo": "congelar", "valor": 1}],
+    "descricao": ["O ALVO", "PERDE A", "PRÓX. VEZ"]
+  },
+  "fumaca": {
+    "nome": "FUMAÇA", "classe": "ladino", "custo": 2, "tipo": "defesa", "ilustracao": "fumaca",
+    "efeitos": [{"tipo": "esquiva", "valor": 1}],
+    "descricao": ["PRÓXIMO", "ATAQUE NO", "ALVO ERRA"]
+  },
+  "cegar": {
+    "nome": "CEGAR", "classe": "ladino", "custo": 2, "tipo": "ataque", "ilustracao": "cegar",
+    "efeitos": [{"tipo": "fraqueza", "valor": 1}],
+    "descricao": ["-50% DANO", "NA PRÓX.", "VEZ DELE"]
+  },
+
+  "bastiao": {
+    "nome": "BASTIÃO", "classe": "guerreiro", "custo": 3, "tipo": "ataque", "ilustracao": "bastiao",
+    "especial": true,
+    "efeitos": [{"tipo": "dano", "valor": 20}, {"tipo": "bloqueio", "valor": 3, "alvo": "grupo"}],
+    "descricao": ["CAUSE {0}", "+{1} BLOQ.", "AO GRUPO"]
+  },
+  "tempestade": {
+    "nome": "TEMPESTADE", "classe": "mago", "custo": 3, "tipo": "magia", "ilustracao": "tempestade",
+    "especial": true,
+    "efeitos": [{"tipo": "dano", "valor": 11, "vezes": 2, "alvo": "todos"}],
+    "descricao": ["CAUSE {0}", "2 VEZES", "EM TODOS"]
+  },
+  "mil_cortes": {
+    "nome": "MIL CORTES", "classe": "ladino", "custo": 3, "tipo": "ataque", "ilustracao": "mil_cortes",
+    "especial": true,
+    "efeitos": [{"tipo": "dano", "valor": 3, "vezes": 6}, {"tipo": "veneno", "valor": 4}],
+    "descricao": ["{0} DANO X6", "+{1} VENENO", "NO ALVO"]
+  },
+  "disciplina": {
+    "nome": "DISCIPLINA", "classe": "guerreiro", "custo": 0, "tipo": "defesa", "ilustracao": "disciplina",
+    "passiva": true,
+    "efeitos": [{"tipo": "bonus_energia", "valor": 1}],
+    "descricao": ["PASSIVA:", "+{0} ENERG.", "POR VEZ"]
+  },
+  "veterano": {
+    "nome": "VETERANO", "classe": "guerreiro", "custo": 1, "tipo": "ataque", "ilustracao": "veterano",
+    "efeitos": [{"tipo": "dano", "valor": 5, "crescer": 1}],
+    "descricao": ["CAUSE {0}", "CRESCE +1", "POR USO"]
+  },
+  "escudada": {
+    "nome": "ESCUDADA", "classe": "guerreiro", "custo": 1, "tipo": "ataque", "ilustracao": "escudada",
+    "efeitos": [{"tipo": "bloqueio", "valor": 5, "alvo": "proprio"}, {"tipo": "dano", "base": "bloqueio"}],
+    "descricao": ["+{0} BLOQ.", "DANO: SEU", "BLOQUEIO"]
+  },
+
+  "sabedoria": {
+    "nome": "SABEDORIA", "classe": "mago", "custo": 1, "tipo": "magia", "ilustracao": "sabedoria",
+    "passiva": true,
+    "efeitos": [{"tipo": "bonus_compra", "valor": 1}],
+    "descricao": ["PASSIVA:", "+{0} CARTA", "POR VEZ"]
+  },
+  "transmutar": {
+    "nome": "TRANSMUTAR", "classe": "mago", "custo": 0, "tipo": "magia", "ilustracao": "transmutar",
+    "efeitos": [{"tipo": "descartar", "valor": 1}, {"tipo": "comprar", "valor": 2}],
+    "descricao": ["DESCARTE", "1 CARTA E", "COMPRE {1}"]
+  },
+  "drenar": {
+    "nome": "DRENAR", "classe": "mago", "custo": 1, "tipo": "magia", "ilustracao": "drenar",
+    "efeitos": [{"tipo": "dano", "valor": 5, "roubo": 1.0}],
+    "descricao": ["CAUSE {0}", "E ROUBA", "ESSA VIDA"]
+  },
+
+  "rajada": {
+    "nome": "RAJADA", "classe": "ladino", "custo": 1, "tipo": "ataque", "ilustracao": "rajada",
+    "efeitos": [{"tipo": "dano", "base": "velocidade"}],
+    "descricao": ["CAUSE {0}", "(IGUAL À", "VELOCID.)"]
+  },
+  "acelerar": {
+    "nome": "ACELERAR", "classe": "ladino", "custo": 1, "tipo": "defesa", "ilustracao": "acelerar",
+    "efeitos": [{"tipo": "acelerar", "valor": 3, "alvo": "proprio"}, {"tipo": "comprar", "valor": 1}],
+    "descricao": ["VELOC. X2", "{0} VEZES", "COMPRE {1}"]
+  },
+  "trapaca": {
+    "nome": "TRAPAÇA", "classe": "ladino", "custo": 0, "tipo": "defesa", "ilustracao": "trapaca",
+    "efeitos": [{"tipo": "descartar", "valor": 1}, {"tipo": "energia", "valor": 2}, {"tipo": "comprar", "valor": 1}],
+    "descricao": ["TROQUE 1", "CARTA POR", "+{1} ENERG."]
+  },
+  "peconha": {
+    "nome": "PEÇONHA", "classe": "ladino", "custo": 1, "tipo": "ataque", "ilustracao": "peconha",
+    "passiva": true,
+    "efeitos": [{"tipo": "peconha", "valor": 1}],
+    "descricao": ["PASSIVA:", "ATAQUES", "+{0} VENENO"]
+  },
+
+  "machadada": {
+    "nome": "MACHADADA", "classe": "berserker", "custo": 1, "tipo": "ataque", "ilustracao": "machado",
+    "efeitos": [{"tipo": "dano", "valor": 6}]
+  },
+  "broquel": {
+    "nome": "BROQUEL", "classe": "berserker", "custo": 1, "tipo": "defesa", "ilustracao": "broquel",
+    "efeitos": [{"tipo": "bloqueio", "valor": 5}]
+  },
+  "brutal": {
+    "nome": "BRUTAL", "classe": "berserker", "custo": 2, "tipo": "ataque", "ilustracao": "machado_duplo",
+    "efeitos": [{"tipo": "dano", "valor": 11, "roubo": 0.2}],
+    "descricao": ["CAUSE {0}", "E ROUBA", "20% VIDA"]
+  },
+  "sangria": {
+    "nome": "SANGRIA", "classe": "berserker", "custo": 0, "tipo": "defesa", "ilustracao": "sangria",
+    "efeitos": [{"tipo": "perder_vida", "valor": 3}, {"tipo": "energia", "valor": 2}],
+    "descricao": ["PERCA {0}", "DE VIDA:", "+{1} ENERG."]
+  },
+  "sede": {
+    "nome": "SEDE", "classe": "berserker", "custo": 1, "tipo": "defesa", "ilustracao": "sede",
+    "efeitos": [{"tipo": "sede", "valor": 2}],
+    "descricao": ["O ALVO", "ROUBA 25%", "{0} VEZES"]
+  },
+  "sangrar": {
+    "nome": "SANGRAR", "classe": "berserker", "custo": 1, "tipo": "ataque", "ilustracao": "sangrar",
+    "efeitos": [{"tipo": "dano", "valor": 4}, {"tipo": "marcar", "valor": 2}],
+    "descricao": ["CAUSE {0}", "ATACÁ-LO", "CURA 20%"]
+  },
+  "imortal": {
+    "nome": "IMORTAL", "classe": "berserker", "custo": 1, "tipo": "defesa", "ilustracao": "imortal",
+    "passiva": true,
+    "efeitos": [{"tipo": "imortal", "valor": 1}],
+    "descricao": ["AO CAIR:", "1 DE VIDA", "E DANO X3"]
+  },
+  "ira": {
+    "nome": "IRA", "classe": "berserker", "custo": 1, "tipo": "ataque", "ilustracao": "ira",
+    "efeitos": [{"tipo": "dano", "valor": 4, "por_rodada": 1}],
+    "descricao": ["CAUSE {0}", "+1 A CADA", "RODADA"]
+  },
+  "desvario": {
+    "nome": "DESVARIO", "classe": "berserker", "custo": 1, "tipo": "ataque", "ilustracao": "desvario",
+    "efeitos": [{"tipo": "descartar", "valor": 2}, {"tipo": "dano", "valor": 16}],
+    "descricao": ["DESCARTE", "2: CAUSE", "{1} DANO"]
+  },
+  "vinganca": {
+    "nome": "VINGANÇA", "classe": "berserker", "custo": 2, "tipo": "ataque", "ilustracao": "vinganca",
+    "efeitos": [{"tipo": "dano", "base": "vida_perdida"}],
+    "descricao": ["CAUSE {0}", "(VIDA QUE", "FALTA)"]
+  },
+  "selvageria": {
+    "nome": "SELVAGERIA", "classe": "berserker", "custo": 1, "tipo": "ataque", "ilustracao": "selvageria",
+    "passiva": true,
+    "efeitos": [{"tipo": "selvageria", "valor": 25}],
+    "descricao": ["PASSIVA:", "ROUBO DE", "VIDA +{0}%"]
+  },
+  "ragnarok": {
+    "nome": "RAGNAROK", "classe": "berserker", "custo": 3, "tipo": "ataque", "ilustracao": "ragnarok",
+    "especial": true,
+    "efeitos": [{"tipo": "dano", "valor": 14, "alvo": "todos", "roubo": 0.2}],
+    "descricao": ["CAUSE {0}", "EM TODOS,", "ROUBA 20%"]
+  }
+}

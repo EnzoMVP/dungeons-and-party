@@ -1,0 +1,12 @@
+{
+  "pedra_de_amolar": {"nome": "PEDRA DE AMOLAR", "descricao": "ATAQUES FÍSICOS CAUSAM +2 DE DANO."},
+  "tomo_proibido":   {"nome": "TOMO PROIBIDO",   "descricao": "TODOS OS HERÓIS GANHAM +0.2 DE PODER."},
+  "escudo_ancestral": {"nome": "ESCUDO ANCESTRAL", "descricao": "CADA HERÓI COMEÇA SUA VEZ COM 3 DE BLOQUEIO."},
+  "botas_velozes":   {"nome": "BOTAS VELOZES",   "descricao": "TODOS OS HERÓIS GANHAM +3 DE VELOCIDADE."},
+  "presa_venenosa":  {"nome": "PRESA VENENOSA",  "descricao": "ATAQUES FÍSICOS APLICAM 1 DE VENENO."},
+  "pocao_vital":     {"nome": "POÇÃO VITAL",     "descricao": "APÓS CADA COMBATE, CURA 6 DE VIDA DE TODOS."},
+  "coracao_de_ferro": {"nome": "CORAÇÃO DE FERRO", "descricao": "TODOS OS HERÓIS GANHAM +8 DE VIDA MÁXIMA."},
+  "ampulheta":       {"nome": "AMPULHETA",       "descricao": "NA PRIMEIRA VEZ DE CADA HERÓI NO COMBATE, +1 ENERGIA."},
+  "calice_de_sangue": {"nome": "CÁLICE DE SANGUE", "descricao": "AS CARTAS DE TODOS OS HERÓIS ROUBAM +10% DE VIDA."},
+  "bolsa_de_truques": {"nome": "BOLSA DE TRUQUES", "descricao": "NA PRIMEIRA VEZ DE CADA HERÓI NO COMBATE, +1 CARTA."}
+}

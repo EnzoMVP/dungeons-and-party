@@ -1,0 +1,81 @@
+{
+  "guerreiro": {
+    "nome": "GUERREIRO",
+    "sprite": "guerreiro",
+    "descricao": ["RESISTENTE, COM", "MUITO BLOQUEIO E", "GOLPES PESADOS."],
+    "atributos": {
+      "hp": [44, 52],
+      "forca": [1.2, 1.4],
+      "poder": [0.8, 1.0],
+      "defesa": [1.1, 1.3],
+      "velocidade": [6, 10]
+    },
+    "cartas": ["golpe", "golpe", "golpe", "golpe", "golpe",
+               "defender", "defender", "defender", "defender",
+               "esmagar",
+               "brado", "rachar"],
+    "recompensas": ["investida", "provocar", "retalhar", "muralha", "estrondo",
+                    "disciplina", "veterano", "escudada"],
+    "combo": {"cartas": ["golpe", "esmagar"], "especial": "bastiao"}
+  },
+  "mago": {
+    "nome": "MAGO",
+    "sprite": "mago",
+    "descricao": ["FRÁGIL, MAS COM", "MAGIAS FORTES,", "CURA E COMPRAS."],
+    "atributos": {
+      "hp": [28, 34],
+      "forca": [0.8, 1.0],
+      "poder": [1.2, 1.4],
+      "defesa": [0.9, 1.1],
+      "velocidade": [7, 11]
+    },
+    "cartas": ["faisca", "faisca", "faisca", "faisca",
+               "barreira", "barreira", "barreira", "barreira",
+               "bola_de_fogo",
+               "concentracao",
+               "bencao", "congelar"],
+    "recompensas": ["cura", "relampago", "mana", "gelo", "meteoro",
+                    "sabedoria", "transmutar", "drenar"],
+    "combo": {"cartas": ["faisca", "bola_de_fogo"], "especial": "tempestade"}
+  },
+  "ladino": {
+    "nome": "LADINO",
+    "sprite": "ladino",
+    "descricao": ["ÁGIL E ASTUTO:", "AGE PRIMEIRO E", "ENVENENA."],
+    "atributos": {
+      "hp": [34, 40],
+      "forca": [1.0, 1.2],
+      "poder": [0.8, 1.0],
+      "defesa": [0.9, 1.1],
+      "velocidade": [12, 16]
+    },
+    "cartas": ["punhalada", "punhalada", "punhalada", "punhalada",
+               "esquiva", "esquiva", "esquiva", "esquiva",
+               "adaga_veloz",
+               "golpe_furtivo",
+               "fumaca", "cegar"],
+    "recompensas": ["veneno", "toxica", "sombras", "laminas", "preparo",
+                    "rajada", "acelerar", "trapaca", "peconha"],
+    "combo": {"cartas": ["punhalada", "golpe_furtivo"], "especial": "mil_cortes"}
+  },
+  "berserker": {
+    "nome": "BERSERKER",
+    "sprite": "berserker",
+    "descricao": ["SELVAGEM: TROCA", "VIDA POR DANO E", "ROUBA VIDA."],
+    "atributos": {
+      "hp": [38, 44],
+      "forca": [1.3, 1.5],
+      "poder": [0.7, 0.9],
+      "defesa": [0.8, 1.0],
+      "velocidade": [8, 12],
+      "roubo": [3, 8]
+    },
+    "cartas": ["machadada", "machadada", "machadada", "machadada",
+               "broquel", "broquel", "broquel", "broquel",
+               "brutal",
+               "sangria",
+               "sede", "sangrar"],
+    "recompensas": ["imortal", "ira", "desvario", "vinganca", "selvageria"],
+    "combo": {"cartas": ["machadada", "brutal"], "especial": "ragnarok"}
+  }
+}

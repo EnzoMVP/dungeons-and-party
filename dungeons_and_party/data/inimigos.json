@@ -1,0 +1,78 @@
+{
+  "esqueleto": {
+    "nome": "ESQUELETO", "hp_max": 42, "velocidade": 7, "sprite": "esqueleto",
+    "rotina": [
+      {"tipo": "ataque", "valor": 7},
+      {"tipo": "defesa", "valor": 7},
+      {"tipo": "ataque", "valor": 11}
+    ]
+  },
+  "rato": {
+    "nome": "RATO GIGANTE", "hp_max": 18, "velocidade": 13, "sprite": "rato",
+    "rotina": [
+      {"tipo": "ataque", "valor": 3, "vezes": 2},
+      {"tipo": "ataque", "valor": 5},
+      {"tipo": "buff", "valor": 1}
+    ]
+  },
+  "cultista": {
+    "nome": "CULTISTA", "hp_max": 30, "velocidade": 10, "sprite": "cultista",
+    "rotina": [
+      {"tipo": "buff", "valor": 2},
+      {"tipo": "ataque_area", "valor": 4},
+      {"tipo": "ataque", "valor": 7}
+    ]
+  },
+  "orc": {
+    "nome": "ORC BRUTO", "hp_max": 52, "velocidade": 5, "sprite": "orc",
+    "rotina": [
+      {"tipo": "defesa", "valor": 8},
+      {"tipo": "ataque", "valor": 12},
+      {"tipo": "ataque", "valor": 6, "vezes": 2},
+      {"tipo": "buff", "valor": 2}
+    ]
+  },
+  "morcego": {
+    "nome": "MORCEGO", "hp_max": 16, "velocidade": 15, "sprite": "morcego",
+    "rotina": [
+      {"tipo": "dreno", "valor": 4},
+      {"tipo": "ataque", "valor": 2, "vezes": 2},
+      {"tipo": "dreno", "valor": 5}
+    ]
+  },
+  "aranha": {
+    "nome": "ARANHA", "hp_max": 30, "velocidade": 12, "sprite": "aranha",
+    "rotina": [
+      {"tipo": "veneno", "valor": 5},
+      {"tipo": "ataque", "valor": 6},
+      {"tipo": "defesa", "valor": 5}
+    ]
+  },
+  "espectro": {
+    "nome": "ESPECTRO", "hp_max": 28, "velocidade": 9, "sprite": "espectro",
+    "rotina": [
+      {"tipo": "espectral", "valor": 5},
+      {"tipo": "ataque_area", "valor": 3},
+      {"tipo": "espectral", "valor": 7}
+    ]
+  },
+  "golem": {
+    "nome": "GOLEM", "hp_max": 58, "velocidade": 2, "sprite": "golem",
+    "rotina": [
+      {"tipo": "defesa", "valor": 10},
+      {"tipo": "ataque", "valor": 11},
+      {"tipo": "defesa", "valor": 6},
+      {"tipo": "ataque_area", "valor": 4}
+    ]
+  },
+  "rei_esqueleto": {
+    "nome": "REI ESQUELETO", "hp_max": 120, "velocidade": 11, "sprite": "rei_esqueleto",
+    "rotina": [
+      {"tipo": "buff", "valor": 2},
+      {"tipo": "ataque", "valor": 10},
+      {"tipo": "ataque_area", "valor": 5},
+      {"tipo": "defesa", "valor": 12},
+      {"tipo": "ataque", "valor": 4, "vezes": 3}
+    ]
+  }
+}

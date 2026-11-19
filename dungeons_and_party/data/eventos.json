@@ -1,0 +1,50 @@
+{
+  "altar": {
+    "titulo": "ALTAR ESQUECIDO",
+    "texto": ["UM ALTAR DE PEDRA PULSA COM UMA LUZ SOMBRIA.", "ALGO PODEROSO ESPERA UMA OFERENDA DE SANGUE."],
+    "opcoes": [
+      {"rotulo": "OFERECER SANGUE", "efeitos": [{"tipo": "dano_grupo", "valor": 6}, {"tipo": "reliquia"}],
+       "resultado": "O GRUPO SANGRA (-6 HP), MAS O ALTAR CONCEDE UMA RELÍQUIA."},
+      {"rotulo": "IGNORAR", "efeitos": [], "resultado": "VOCÊS SEGUEM EM SILÊNCIO."}
+    ]
+  },
+  "fonte": {
+    "titulo": "FONTE CRISTALINA",
+    "texto": ["ÁGUA LÍMPIDA BROTA ENTRE AS ROCHAS.", "DIZEM QUE ELA CURA E FORTALECE QUEM A BEBE."],
+    "opcoes": [
+      {"rotulo": "BEBER", "efeitos": [{"tipo": "cura_grupo", "valor": 12}],
+       "resultado": "O GRUPO RECUPERA 12 DE VIDA."},
+      {"rotulo": "BANHAR ARMAS", "efeitos": [{"tipo": "atributo", "atributo": "forca", "valor": 0.1}],
+       "resultado": "UM HERÓI SENTE AS ARMAS MAIS LEVES (+0.1 FORÇA)."}
+    ]
+  },
+  "mercador": {
+    "titulo": "MERCADOR ERRANTE",
+    "texto": ["UM MERCADOR ENCAPUZADO OFERECE SEGREDOS DE COMBATE.", "O PREÇO É PAGO EM VIDA."],
+    "opcoes": [
+      {"rotulo": "NEGOCIAR", "efeitos": [{"tipo": "dano_grupo", "valor": 4}, {"tipo": "carta"}],
+       "resultado": "O GRUPO PERDE 4 DE VIDA E APRENDE UMA NOVA TÉCNICA."},
+      {"rotulo": "RECUSAR", "efeitos": [], "resultado": "O MERCADOR DESAPARECE NA ESCURIDÃO."}
+    ]
+  },
+  "treino": {
+    "titulo": "CAMPO DE TREINO",
+    "texto": ["BONECOS DE PALHA E ARMAS VELHAS.", "UM BOM LUGAR PARA AFIAR OS REFLEXOS."],
+    "opcoes": [
+      {"rotulo": "TREINAR", "efeitos": [{"tipo": "atributo", "atributo": "velocidade", "valor": 2}],
+       "resultado": "UM HERÓI FICA MAIS RÁPIDO (+2 VELOCIDADE)."},
+      {"rotulo": "DESCANSAR", "efeitos": [{"tipo": "cura_grupo", "valor": 6}],
+       "resultado": "O GRUPO RECUPERA 6 DE VIDA."}
+    ]
+  },
+  "santuario": {
+    "titulo": "SANTUÁRIO DE SANGUE",
+    "texto": ["UM CÁLICE TRANSBORDA SOBRE UM ALTAR RÚNICO.", "QUEM BEBE DELE SENTE SEDE DE BATALHA."],
+    "opcoes": [
+      {"rotulo": "BEBER", "efeitos": [{"tipo": "dano_grupo", "valor": 3}, {"tipo": "atributo", "atributo": "roubo", "valor": 10}],
+       "resultado": "O GRUPO PERDE 3 DE VIDA; UM HERÓI ROUBA +10% DE VIDA."},
+      {"rotulo": "DERRAMAR", "efeitos": [{"tipo": "cura_grupo", "valor": 5}],
+       "resultado": "O SANGUE VIRA ÁGUA. O GRUPO RECUPERA 5 DE VIDA."}
+    ]
+  }
+}

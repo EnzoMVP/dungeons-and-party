@@ -1,0 +1,45 @@
+DUNGEONS & PARTY
+================
+Deckbuilder roguelike por turnos em fantasia medieval e pixel art,
+feito em Python com a biblioteca PPlay (Power PPlay 2.0).
+
+Laboratório de Programação de Jogos - IC/UFF - Prof. Esteban Clua
+Enzo Menezes (sistemas e código) e Matheus da Costa (arte, VFX e UI)
+
+
+COMO JOGAR NO WINDOWS (SEM PYTHON)
+----------------------------------
+Abra a pasta e dê dois cliques em "DungeonsAndParty.exe".
+
+
+COMO RODAR PELO CÓDIGO-FONTE
+----------------------------
+1. Python 3.10 ou mais novo (testado no 3.13).
+2. Instale o pygame (a única dependência do PPlay):
+       pip install pygame
+3. Dentro desta pasta (a que tem o main.py), rode:
+       python main.py
+
+A pasta PPlay/ já vem junto, ao lado do main.py.
+
+
+CONTROLES
+---------
+Mouse (botão esquerdo) ... escolher heróis, nós do mapa, cartas e botões
+Botão direito ou ESC ..... cancelar a escolha de alvo ou de descarte
+ESC (no combate) ......... pausar
+F11 ...................... alternar tela cheia
+
+
+COMO SE JOGA
+------------
+- Escolha o líder do grupo entre Guerreiro, Mago, Ladino e Berserker.
+- Avance pelo mapa da masmorra: combates, eventos, tesouros e fogueiras,
+  até o chefe, o Rei Esqueleto.
+- Os heróis agem em ordem de velocidade. Na vez de um herói, ele compra
+  3 cartas suas e tem 3 de energia para jogá-las.
+- Os inimigos mostram a próxima ação (intenção) acima da cabeça.
+- Depois de cada combate, escolha uma carta nova e recrute companheiros
+  (grupo de até 3 heróis). Herói que cai leva as cartas dele embora.
+- Junte as duas cartas de combo da classe na mão para fundi-las numa
+  carta especial.

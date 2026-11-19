@@ -1,0 +1,7 @@
+{
+  "caracteres": "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;!?/-+()%&'ÁÀÂÃÉÊÍÓÔÕÚÇ",
+  "largura_celula": 6,
+  "altura_celula": 11,
+  "topo_corpo": 2,
+  "altura_corpo": 7
+}
